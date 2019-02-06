@@ -1,0 +1,346 @@
+
+
+.find_someone_head,
+.community_find_someone_head {
+	color: #ff5a60;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight: 500
+}
+
+.community_find_someone_head a {
+	color: #ff5a60
+}
+
+
+
+
+
+.sign_up,
+.interact,
+.connect {
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left 1px;
+	height: 148px;
+	width: 133px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	background-size: 100%;
+	transition: all .5s ease-in-out 0s
+}
+
+.sign_up span,
+.interact span,
+.connect span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 148px;
+	width: 133px;
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left -147px;
+	opacity: 0;
+	background-size: 100%;
+	transition: all .5s ease-in-out 0s
+}
+
+.interact {
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left -292px;
+	background-size: 100%;
+	transition: all .5s ease-in-out 0s
+}
+
+.interact span {
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left -440px;
+	background-size: 100%
+}
+
+.connect {
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left -591px;
+	background-size: 100%
+}
+
+.connect span {
+	background: url(https://img2.shaadi.com/assests/2016/images/home-icon-sprite.png) no-repeat left -739px;
+	background-size: 100%
+}
+
+.sign_up span:hover,
+.interact span:hover,
+.connect span:hover {
+	opacity: 1
+}
+
+
+
+
+
+.story_carousel {
+	margin: 40px 0 20px
+}
+
+.success_story {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0 5px
+}
+
+.story_carousel .item {
+	background-color: transparent
+}
+
+.story_carousel .carousel-control.left,
+.story_carousel .carousel-control.right {
+	background-image: none;
+	display: block;
+	width: auto;
+	filter: none
+}
+
+
+
+.story_item {
+	max-width: 300px;
+	max-height: 225px;
+	margin: 7.5px auto;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid transparent
+}
+
+.story_item:hover {
+	border-color: #dfe0e3
+}
+
+.story_item:hover .story_detail {
+	opacity: 1;
+	top: 0
+}
+
+.story_item:hover img {
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	opacity: .1
+}
+
+.story_item img {
+	width: 100%;
+	transform: scale(1);
+	transition: all .5s ease-in-out
+}
+
+.story_carousel .carousel-control.left {
+	left: -12px
+}
+
+.story_carousel .carousel-control.right {
+	right: -12px
+}
+
+.story_carousel .icon-prev {
+	background: url(https://img2.shaadi.com/assests/2016/images/sprite-homepg-v3.png) no-repeat left -531px;
+	height: 30px !important;
+	width: 17px !important
+}
+
+.story_carousel .icon-next {
+	background: url(https://img2.shaadi.com/assests/2016/images/sprite-homepg-v3.png) no-repeat left -571px;
+	height: 30px !important;
+	width: 17px !important
+}
+
+.story_carousel .icon-prev::before,
+.story_carousel .icon-next::before {
+	display: none
+}
+
+.story_detail {
+	position: absolute;
+	top: 100%;
+	opacity: 0;
+	overflow: hidden;
+	padding: 25px;
+	transition: all .5s ease-in-out
+}
+
+.person_name {
+	font-size: 22px;
+	color: #51505d
+}
+
+.story_detail .person_info {
+	font-size: 14px;
+	margin: 0
+}
+
+.person_name::after {
+	background: #00bcd5;
+	height: 2px;
+	content: " ";
+	width: 50px;
+	display: block;
+	margin: 5px 0 10px
+}
+
+.story_carousel .carousel-indicators {
+	bottom: auto;
+	top: 100%
+}
+
+.story_carousel .carousel-indicators li {
+	background: #d7d7d7;
+	border: 1px solid #d7d7d7
+}
+
+.story_carousel .carousel-indicators .active {
+	background: #00bcd5;
+	border: 1px solid #00bcd5;
+	width: 10px;
+	height: 10px;
+	margin: 1px
+}
+
+
+
+
+
+
+@media(min-width:1200px) {
+	
+
+	.container {
+		width: 960px
+	}
+
+	
+
+}
+
+@media(min-width:768px) {
+	.your_story_waiting {
+		font-size: 24px
+	}
+
+	.marketing {
+		padding-left: 0;
+		padding-right: 0
+	}
+
+	.navbar-wrapper {
+		margin-top: 20px;
+		margin-bottom: -90px
+	}
+
+	.navbar-wrapper .navbar {
+		border-radius: 4px
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	body,
+	div,
+	ul,
+	ol,
+	li,
+	h1,
+	h2,
+	h4,
+	h5,
+	h6,
+	form,
+	input,
+	button,
+	textarea,
+	select,
+	p,
+	td,
+	map
+	.story_detail {
+		padding: 15px
+	}
+
+	
+	.story_detail .person_info {
+		font-size: 12px;
+		text-align: left
+	}
+
+	
+
+
+
+@media only screen and (max-width:767px) {
+	.btm_footer {
+		display: none
+	}
+
+
+	.carousel-control.left {
+		left: -30px
+	}
+
+	.carousel-control.right {
+		right: -30px
+	}
+
+	.story_item {
+		max-height: 100%;
+		max-width: 250px;
+		text-align: center
+	}
+
+	.story_item:hover {
+		border: 0
+	}
+
+	.story_carousel .carousel-control.left {
+		left: 0
+	}
+
+	.story_carousel .carousel-control.right {
+		right: 0
+	}
+
+	.story_carousel .carousel-control span {
+		top: 101px
+	}
+
+	.story_item:hover img {
+		transform: scale(1);
+		opacity: 1
+	}
+
+	.story_detail {
+		position: static;
+		opacity: 1;
+		padding: 0;
+		margin: 27px 0 0
+	}
+
+	
+
+	.story_detail .person_info {
+		font-size: 14px
+	}
+
+	.person_name::after {
+		margin: 8px auto 20px
+	}
+
+
+
+	.story_carousel {
+		margin: 20px 0
+	}
+
+	.your_story_waiting {
+		font-size: 18px;
+		margin: 0 0 10px;
+		text-align: center;
+		line-height: 1.4
+	}
+
+

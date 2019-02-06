@@ -1,0 +1,369 @@
+/*nav */
+.navnopad{
+  margin-left: -30px;
+}
+
+/*end nav */
+
+/*another container */
+.anothercont{
+  margin-bottom: 0px;
+}
+.anothercont_first{
+  margin-top: -25px; 
+  margin-bottom: 10px;
+}
+.anothercont_txt{
+  text-align: left;
+}
+.anothercont_second{
+  border: 2px solid #F8F8F8;
+  border-radius: 3px; 
+  padding: 2px; 
+  background-color: #FFFFFF;
+}
+.mbride_pad{
+  padding: 2px;
+}
+
+/*end another container */
+
+/*our package Start */
+.our_pack_custom{
+  margin-top: 20px; 
+  margin-bottom: 25px;
+}
+.my_customclear{
+  margin-bottom: 40px;
+}
+.my_custombox{
+  background-color:#FFFFFF; 
+  margin: 2px;
+}
+
+/*our package End */
+
+/* Box modeling Start */
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 24.5%;
+  padding: 1px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+/*Box Modeling End */
+/*carousel Start */
+.mycust_car{
+  margin-bottom: 0px;
+}
+.mycast_someone{
+  margin-bottom: -20px;
+}
+
+
+/*carousel End */
+/*top Header */
+
+.mycontainfluid {
+  position: relative;
+}
+
+.mycoltwelve {
+  background-color: #E08C0F;
+  width: 100%;
+  height: 100px;
+}
+
+.mycolsix {
+  background-color: #F4BB2C;
+  height: 100px;
+}
+
+.myspanstyle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #990000;
+  background: #e2b04f;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.emlab {
+  font-size: 12px;
+}
+
+.eminput {
+  font-size: 10pt;
+  width: 150px;
+}
+
+.passlab {
+  font-size: 12px;
+}
+
+.inptopmargin {
+  margin-top: 3px;
+}
+
+.toplogin {
+  float: right;
+  margin-top: -25px;
+  
+  margin-left: 100px;
+}
+
+.freereg {
+  padding: 0px;
+}
+
+.forgotpasstop {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #990000;
+}
+
+.helpcalltop {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #990000;
+  background: #e2b04f;
+  border-radius: 2px;
+  padding: 7px;
+}
+
+/*end top header */
+
+/*profile page */
+
+.mybtngrp{
+  background-color: #ceeca8;
+  color: green;
+}
+.mytable{
+  border: 3px solid #F1F1F1;
+}
+.mythead{
+  background-color: #ceeca8;
+}
+
+.mytd{
+  color: #32CD32;
+}
+
+
+
+
+
+
+
+
+
+/*end profile page */
+
+
+
+
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slide-wrapper {
+  position: relative
+}
+
+.red {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.red-content {
+  width: 100%;
+  height: 300px;
+  background: red;
+  color: #fff;
+}
+
+@media (min-width:768px) {
+  .carousel-caption {
+    text-align: left;
+    padding-right: 300px;
+  }
+
+  .red {
+    width: 750px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    padding: 20px 0;
+    margin-left: -375px;
+  }
+
+  .red-content {
+    width: 300px;
+    float: right;
+    height: 100%;
+    background: red;
+    color: #fff;
+    margin-right: 15px; /* width of .container gutter */
+  }
+
+}
+
+@media (min-width:992px) {
+  .red {
+    width: 970px;
+    margin-left: -485px;
+  }
+
+}
+
+@media (min-width:1200px) {
+  .red {
+    width: 1170px;
+    margin-left: -585px;
+  }
+
+}
+
+/* MISC */
+#homepage-feature .item {
+  overflow: hidden;
+  height: 400px;
+  background-color: transparent;
+  background-size: cover;
+}
+
+#homepage-feature > .carousel-control {
+  width: 30px;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: none;
+  filter: none;
+  opacity: 1;
+}
+
+#homepage-feature > .carousel-control span {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.myimg {
+  float: left;
+  margin: 2px 7px 0 3px;
+}
+
+.wrapper {
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.content {
+  border: 3px solid #EEEEEE;
+  border-radius: 2px;
+  background-color: #FFFFFF;  
+  margin: 2px;
+
+}
+
+/* ############ Footer ############## */
+footer {
+  background: #031916;
+  width: 100%;
+  display: table;
+  color: #FFF;
+  padding: 40px 100px 50px;
+}
+
+.footet-logo a {
+  font-size: 38px;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 40px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer-menu {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0 60px;
+}
+
+.footer-menu a {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFF;
+}
+
+.footer-menu-vertical {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.footer-menu-vertical a {
+  display: table-row;
+  vertical-align: middle;
+  color: #FFF;
+  text-align: right;
+}
+
+/*other css it will remove
+
+
+*/
+.myfontcolor {
+  color: black;
+}
+
+select {
+
+  /*font-size: 10pt;*/
+  font-family: arial;
+  font-size: 13px;
+}
+
+/* other style sheet */
+
+.img{
+  float: left;
+  margin-right: 10px;
+}
+
+
+
+
+
+
+/*end of other sctyle sheet */

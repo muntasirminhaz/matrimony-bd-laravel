@@ -1,0 +1,12 @@
+1. Registration
+
+2. Contact Person
+3. Bride/Groom Location Information
+4. Family Residence Address
+5. Personal Information
+6. Education
+7. Profession
+8. Parents Information
+9. Brothers/Sisters Information
+10. Uncle/Aunt Information
+11. Preference

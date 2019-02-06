@@ -1,0 +1,181 @@
+Ager file save kore rakhen reference er jonno
+akhon theke ei file ei kaj koiren
+all page converted to new theme ( needs css and layout changes + some data)
+only page with old layout
+http://localhost/matrimonybd/public/users/myprofile
+
+
+
+database same tarpor o apnake dilam zip file e
+
+SELECT
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`id` AS `id`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`email` AS `email`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`password` AS `password`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`remember_token` AS `remember_token`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`created_at` AS `created_at`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`updated_at` AS `updated_at`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`email_verified` AS `email_verified`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`completed` AS `completed`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`status` AS `status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`regisration_as` AS `regisration_as`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`first_name` AS `first_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`middle_name` AS `middle_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`last_name` AS `last_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`description` AS `description`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mobile` AS `mobile`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`national_id` AS `national_id`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`passport_no` AS `passport_no`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`gender` AS `gender`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`date_of_birth` AS `date_of_birth`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`religion` AS `religion`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`provided_personal_info` AS `provided_personal_info`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`is_religious` AS `is_religious`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`says_payer` AS `says_payer`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`wear_hijab` AS `wear_hijab`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`wear_hijab_after_marriage` AS `wear_hijab_after_marriage`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`disability` AS `disability`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`explain_disability` AS `explain_disability`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`body_type` AS `body_type`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`skin_tone` AS `skin_tone`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`blood_group` AS `blood_group`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`weight` AS `weight`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`height` AS `height`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`diet_type` AS `diet_type`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`smoke` AS `smoke`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`drink` AS `drink`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`marital_status` AS `marital_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`how_many_children` AS `how_many_children`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`children_living_with_me` AS `children_living_with_me`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`sun_sign` AS `sun_sign`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`hobby` AS `hobby`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`language` AS `language`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`annual_income` AS `annual_income`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_name` AS `father_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_living_status` AS `father_living_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_service_status` AS `father_service_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_profession` AS `father_profession`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_profession_details` AS `father_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_designation` AS `father_designation`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_organization_name` AS `father_organization_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`father_other_profession_details` AS `father_other_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_name` AS `mother_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_living_status` AS `mother_living_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_service_status` AS `mother_service_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_profession` AS `mother_profession`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_profession_details` AS `mother_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_designation` AS `mother_designation`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_organization_name` AS `mother_organization_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`mother_other_profession_details` AS `mother_other_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`have_land` AS `have_land`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`land_type` AS `land_type`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`family_background` AS `family_background`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`user_profession_type` AS `user_profession_type`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`user_profession_details` AS `user_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`user_designation` AS `user_designation`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`user_org_name` AS `user_org_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`user_other_profession_details` AS `user_other_profession_details`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`has_siblings` AS `has_siblings`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`number_of_brothers` AS `number_of_brothers`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`number_of_brother_married` AS `number_of_brother_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`number_of_sisters` AS `number_of_sisters`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`number_of_sisters_married` AS `number_of_sisters_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`relative_provided` AS `relative_provided`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`paternal_uncle` AS `paternal_uncle`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`paternal_aunt` AS `paternal_aunt`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`maternal_uncle` AS `maternal_uncle`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`maternal_aunt` AS `maternal_aunt`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`paternal_uncle_married` AS `paternal_uncle_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`paternal_aunt_married` AS `paternal_aunt_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`maternal_uncle_married` AS `maternal_uncle_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`maternal_aunt_married` AS `maternal_aunt_married`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_provided` AS `preference_provided`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_min_age` AS `preference_min_age`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_max_age` AS `preference_max_age`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_marital_status` AS `preference_marital_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_children_allow` AS `preference_children_allow`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_height` AS `preference_height`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_religion` AS `preference_religion`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_education` AS `preference_education`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_profession` AS `preference_profession`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_home_district` AS `preference_home_district`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_living_country` AS `preference_living_country`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_family_resident_city` AS `preference_family_resident_city`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_family_residential_status` AS `preference_family_residential_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_monthly_income` AS `preference_monthly_income`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_body_type` AS `preference_body_type`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_skintone` AS `preference_skintone`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_disability` AS `preference_disability`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_nrb` AS `preference_nrb`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`preference_moreinfo` AS `preference_moreinfo`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_name` AS `contact_name`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_email` AS `contact_email`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_relation` AS `contact_relation`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_timetocall` AS `contact_timetocall`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_mobile` AS `contact_mobile`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_present_address` AS `contact_present_address`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`contact_permanent_address` AS `contact_permanent_address`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_living_city` AS `location_living_city`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_living_country` AS `location_living_country`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_growing_up_country` AS `location_growing_up_country`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_immigration_status` AS `location_immigration_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_district` AS `location_district`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_upzila` AS `location_upzila`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_family_living_country` AS `location_family_living_country`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_family_district` AS `location_family_district`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_family_living_area` AS `location_family_living_area`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_family_zip` AS `location_family_zip`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`location_family_residential_status` AS `location_family_residential_status`,
+    `gsmtlqqi_tcsesoft_matrimony`.`users`.`how_did` AS `how_did`,
+    (
+    SELECT
+        MAX(
+            `gsmtlqqi_tcsesoft_matrimony`.`users_education`.`education_level`
+        )
+    FROM
+        `gsmtlqqi_tcsesoft_matrimony`.`users_education`
+    WHERE
+        (
+            `gsmtlqqi_tcsesoft_matrimony`.`users`.`id` = `gsmtlqqi_tcsesoft_matrimony`.`users_education`.`userid`
+        )
+    GROUP BY
+        `gsmtlqqi_tcsesoft_matrimony`.`users_education`.`userid`
+) AS `ed_level`,
+(
+    SELECT
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`id`
+    FROM
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`
+    WHERE
+        (
+            `gsmtlqqi_tcsesoft_matrimony`.`users`.`id` = `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+        )
+    GROUP BY
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+) AS `pic_id`,
+(
+    SELECT
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`extention`
+    FROM
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`
+    WHERE
+        (
+            `gsmtlqqi_tcsesoft_matrimony`.`users`.`id` = `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+        )
+    GROUP BY
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+) AS `pic_ext`,
+(
+    SELECT
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`is_profilepic`
+    FROM
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`
+    WHERE
+        (
+            `gsmtlqqi_tcsesoft_matrimony`.`users`.`id` = `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+        )
+    GROUP BY
+        `gsmtlqqi_tcsesoft_matrimony`.`users_photos`.`userid`
+) AS `pic_is_profilepic`
+FROM
+    `gsmtlqqi_tcsesoft_matrimony`.`users`
